@@ -1,7 +1,7 @@
-public class RectangleTester{
+public class Rectangle2Tester{
     public static void main(String[] args) {
-        Rectangle rect = new Rectangle(5,10);
-        Rectangle rect1 = new Rectangle(5,10);
+        Rectangle2 rect = new Rectangle2(5,10);
+        Rectangle2 rect1 = new Rectangle2(5,10);
         System.out.println("length:"+rect.getLength());
         System.out.println("width:"+rect.getWidth());
         System.out.println("area:"+rect.calculateArea());
